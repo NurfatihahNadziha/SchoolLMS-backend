@@ -6,4 +6,4 @@ services:
     startCommand: java -jar target/*.jar
     envVars:
       - key: MONGO_URI
-        fromGroup: schoollms-env
+        value: "MASUKKAN_MONGO_URI_ANDA_DI_SINI"
